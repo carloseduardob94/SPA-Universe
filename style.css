@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color: #633BBC;
+  --text-color: #fff;
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
+#front{
+  margin-top: 16rem;
+  margin-left: 24rem;
+}
+
+#front h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 14rem;
+  line-height: 16rem;
+  color: var(--text-color);
+}
+
+#front h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6rem;
+  line-height: 7.4rem;
+  color: var(--text-color);
+}
+
+main{
+  background-image: url(/img/mountains-universe-1\ 1.png);
+  margin: 12rem auto;
+  width: 140rem;
+  height: 78.9rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main header{
+  display: flex;
+  margin-left: 7.2rem;
+  padding-top: 4rem;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+header a{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+
+  color: var(--text-color);
+
+  text-decoration: none;
+}
+
+header a:hover{
+  font-weight: 700;
+}
+
+#center{
+  display: flex;
+  flex-direction: column;
+
+  margin: 29.4rem 44rem;
+  align-items: center;
+}
+
+ #center h3{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: var(--text-color);
+ }
+
+ #center #button{
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  background: transparent;
+  width: 19.5rem;
+  height: 4.8rem;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+
+  color: var(--text-color);
+  text-transform: uppercase;
+  text-decoration: none;
+
+
+  margin-top: 2.4rem;
+  padding: 1.2rem 3.8rem;
+
+  cursor: pointer;
+ }
+
+ main #universe {
+  background-image: url(/img/mountains-universe-2.png);
+  margin: 12rem auto;
+  width: 140rem;
+  height: 78.9rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+
+#content{
+   margin-top: 18.5rem;
+   margin-left: 10.2rem;
+   
+}
+
+
+ #content h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+  color: var(--text-color);
+ }
+
+ #content p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  width: 100%;
+  max-width: 64.8rem;
+
+  color: var(--text-color);
+
+  margin-top: 1.6rem;
+ }
+
+ main #exploration {
+  background-image: url(/img/mountains-universe-3.png);
+  margin: 12rem auto;
+  width: 140rem;
+  height: 78.9rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+
+
+
